@@ -78,6 +78,3 @@ for test in tests:
     result = locate_card(**test['input']) == test['output']
     print(f'Test #{count} result: ', result)
     count+=1
-
-
-print(len(tests))
